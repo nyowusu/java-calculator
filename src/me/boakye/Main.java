@@ -22,5 +22,12 @@ public class Main {
         double firstToMultiply = 13;
         double secondToMultiply = 4;
         System.out.printf("%.2f * %.2f = %d%n", firstToMultiply, secondToMultiply, calculator.multiplyTwoNumbers(firstToMultiply, secondToMultiply));
+
+        // subtractTwoNumbers
+        double firstToSubtract = 13;
+        double secondToSubtract = 4;
+        System.out.printf("%.2f - %.2f = %.2f%n", firstToSubtract, secondToSubtract, calculator.subtractTwoNumbers(firstToSubtract, (int)secondToSubtract) );
     }
+
+
 }
