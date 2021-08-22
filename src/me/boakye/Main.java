@@ -16,8 +16,11 @@ public class Main {
         // divideTwoNumbers
         double firstToDivide = 13;
         double secondToDivide = 4;
-        System.out.printf("%f / %f = %f%n", firstToDivide, secondToDivide, calculator.divideTwoNumbers(firstToDivide, secondToDivide));
+        System.out.printf("%.2f / %.2f = %.2f%n", firstToDivide, secondToDivide, calculator.divideTwoNumbers(firstToDivide, secondToDivide));
 
-
+        // multiplyTwoNumbers
+        double firstToMultiply = 13;
+        double secondToMultiply = 4;
+        System.out.printf("%.2f * %.2f = %d%n", firstToMultiply, secondToMultiply, calculator.multiplyTwoNumbers(firstToMultiply, secondToMultiply));
     }
 }
